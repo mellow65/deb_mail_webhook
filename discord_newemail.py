@@ -9,10 +9,6 @@ def check_folder_and_notify(folder_path):
         if len(os.listdir(folder_path)) > 0:
             # If there are files, send a Discord webhook message
             send_discord_notification("You have an email in container 1XX.")    #fill in container number   
-        else:
-            print("No files found in the folder.")
-    else:
-        print(f"Invalid folder path: {folder_path}")
 
 def send_discord_notification(message):
     
