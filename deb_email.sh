@@ -27,5 +27,7 @@ mv discord_newemail.py /home/scripts
 
 chmod +x /home/scripts/discord_newemail.py
 
+echo "0 7,13,19 * * * python3 /home/scripts/discord_newemail.py" >> /var/spool/cron/crontabs/$USER
 
 
+echo -e "${color}You must go in and change your dicord webhook URL in /home/scripts/discord_newemail.py for all this to work.${reset}"
