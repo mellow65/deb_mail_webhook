@@ -6,12 +6,12 @@ reset='\033[0m'
 echo -e "${color}By using this script, you'll update the system, download python3, mailutils, pip, discord-webhook.  This will pull down the python script and place it in a folder /home/scripts.  Set up your crontab to run the check twice a day.${reset}"
 
 
-apt-get update
-apt-get upgrade -y
+apt update
+apt upgrade -y
 
-apt-get install mailutils -y
+apt install mailutils -y
 
-apt-get install python3 -y
+apt install python3 -y
 
 apt install pip -y
 
