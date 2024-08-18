@@ -6,8 +6,9 @@ Always consider it a work in progress as I barely know what I'm doing.
 XXXX 
 ```bash
 
-curl -o- https://raw.githubusercontent.com/mellow65/Debian-11-Unifi/main/deb12-docker.sh | bash
+curl -o- https://raw.githubusercontent.com/mellow65/deb_mail_webhook/main/deb_email.sh | bash
 
-wget -qO- https://raw.githubusercontent.com/mellow65/Debian-11-Unifi/main/deb12-docker.sh | bash
+wget -qO- https://raw.githubusercontent.com/mellow65/deb_mail_webhook/main/deb_email.sh | bash
+
 
 ```
