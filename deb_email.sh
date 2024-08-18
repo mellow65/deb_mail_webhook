@@ -1,5 +1,3 @@
-#Wanted to make a script following docker install from https://docs.docker.com/engine/install/debian/#install-using-the-repository
-
 #!/bin/bash
 
 color='\033[1;31m'
